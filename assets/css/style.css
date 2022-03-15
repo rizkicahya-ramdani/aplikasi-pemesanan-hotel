@@ -1,0 +1,66 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, rgb(106, 76, 236), rgb(76, 113, 236));
+}
+
+.btn-custom {
+    background: none;
+    border: 2px solid rgb(50, 119, 214);
+    padding: 10px;
+    border-radius: 50px;
+    transition: ease 0.4s;
+}
+
+.btn-custom:hover {
+    border: 2px solid rgb(50, 119, 214);
+    background-color: rgb(50, 119, 214);
+    color: white;
+    transition: ease 0.4s;
+}
+
+.heroes h1 {
+    font-weight: 700;
+}
+
+.heroes img {
+    border-radius: 50px;
+}
+
+.album {
+    min-height: 120vh;
+}
+
+.album img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.modal .modal-body .img-custom {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fasilitas {
+    min-height: 90vh;
+}
+
+.fasilitas .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.overview {
+    min-height: 70vh;
+}
+
+.overview .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
